@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.jpg");
+    height: 100%;
+}
+
+.parent {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    background: rgba(114,114,114, 0.6);
+    width: 652px;
+    height: 450px;
+    top: 200px;
+}
+
+.child h1 {
+    text-align: center;
+}
+
+.child input {
+    text-align: center;
+    margin: 12px;
+}
+
+.child button {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.results h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results-p {
+    font-weight: bold;
+    margin-left: 25px;
+}
